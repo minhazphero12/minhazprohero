@@ -1,6 +1,6 @@
 body{
     margin-top: 3%;
-    margin-left: 1px;
+    margin-left: 3px;
     font-size: 20px;
     margin-right: 3%;
 }
@@ -21,10 +21,10 @@ p{
 .first{
       width: 35%;
       float: left;
-      margin-left: 5%;
+      
 }
 .first img{
-    width: 100%;
+    width: 90%;
 
 }
 section{
@@ -37,3 +37,42 @@ section{
     color: white;
     padding: 1%
 }
+#portfolio {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+#portfolio h2 {
+    
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.work-item img {
+  width: 80%;
+  height: auto;
+  display: table-column;
+}
+
+.work-item: hover{
+  transform: translateY(-10px);
+}
+
+
